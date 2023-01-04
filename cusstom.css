@@ -1,0 +1,38 @@
+.abc{
+    background:#2b4379;
+    
+    padding:13px ;
+}
+.desk-logo{
+    position: absolute;
+    width: 236px;
+    height: 91px;
+    float: left;
+    z-index: 99999;
+    left: 0px;
+    top: 0px;
+    clip-path: polygon(80% 0%, 0% 0%, 0% 100%, 100% 100%);
+    -webkit-clip-path: polygon(80% 0%, 0% 0%, 0% 100%, 100% 100%);
+    background: rgb(255, 255, 255);
+    padding: 10px 46px 10px 20px;
+}
+
+
+.banner{
+    background: url("img/Banner-Top-Page-Desktop-1366px.jpg" ) no-repeat;
+    height: 285px;
+    background-size: cover;
+    background-position: center;
+}
+@media (max-width: 390px) {
+    .desk-logo{
+        width: 150px;
+        height: 45px;
+    }
+    
+.banner{
+    background-size: 100% 50%;
+    height: 400px;
+
+}
+    }
